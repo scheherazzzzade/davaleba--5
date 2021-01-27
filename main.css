@@ -1,0 +1,208 @@
+ლური კლასები*/
+
+.font-ubuntu {
+	font-family: "Ubuntu-Light";
+}
+
+.font-playfair {
+	font-family: "PlayfairDisplay-Regular";
+}
+
+/*
+.color-grey {
+   color: #626262;
+}*/
+
+
+/*.color-light-grey {
+   color: #B4AD9E;
+}
+
+*/
+
+.container-wide {
+	width: 88%;
+	margin: auto;
+}
+
+
+.container-small {
+	width: 75%;
+	margin: auto;
+}
+
+
+img {
+	width: 100%;
+}
+
+
+.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+
+
+/* END: გლობალური კლასები*/
+
+
+
+#logo-img {
+	width: 140px;
+}
+
+
+body {
+	padding-top: 60px;
+	color: #626262;
+	font-size: 14px;
+}
+
+
+nav {
+	width: 50%;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+main {
+	padding-top: 70px;
+}
+
+
+nav li:hover {
+	color: #000;
+}
+
+
+.main-article-wrapper {
+	margin-top: 98px;
+	margin-bottom: 133px;
+}
+
+
+.article-category {
+	color: #B4AD9E;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+
+.article-title {
+	font-size: 30px;
+	margin-bottom: 38px;
+}
+
+
+.article-text {
+	line-height: 24px;
+}
+
+
+.article-leave-comment {
+	display: inline-block;
+	margin-top: 47px;
+	color: #B4AD9E;
+	text-transform: uppercase;
+}
+
+
+
+.articles-wrapper>article {
+	width: 46%;
+	margin-bottom: 130px;
+}
+
+
+
+.articles-wrapper>article>img {
+	margin-bottom: 30px;
+	object-fit: cover;
+	height: 295px;
+}
+
+
+
+.subscribe-wrapper {
+	background-color: #F0F0F0;
+	padding: 68px 0;
+	margin-bottom: 97px;
+	text-align: center;
+}
+
+
+.subscribe-wrapper .article-title {
+	color: #333333;
+}
+
+
+
+#email-input {
+	border: none;
+	border-bottom: 1px solid black;
+	width: 340px;
+	background-color: #F0F0F0;
+	font-family: PlayfairDisplay-Regular;
+}
+
+input[type="text"] {
+	outline: none;
+}
+
+#send {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#load-more {
+	border: 1px solid #626262;
+	;
+	margin-bottom: 70px;
+	padding: 22px;
+	font-size: large;
+	font-family: Ubuntu-light;
+}
+
+#load-more:hover {
+	background-color: #626262;
+	;
+	color: white;
+}
+
+
+
+
+
+
+
+footer {
+	background-color: #F0F0F0;
+	padding: 40px 0;
+	color: #000;
+}
+
+
+footer li {
+	padding-left: 18px;
+}
+
+
+
+footer li:first-of-type {
+	padding-left: 0;
+}
+
